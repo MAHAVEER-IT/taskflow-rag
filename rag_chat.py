@@ -15,7 +15,7 @@ from taskflow_rag.config import PLACEHOLDER_API_KEYS, project_dir
 from taskflow_rag.logging_config import configure_logging
 
 
-CONFIDENCE_THRESHOLD = 0.70
+CONFIDENCE_THRESHOLD = 0.55
 DEFAULT_CHAT_MODEL = "gemini-2.5-flash"
 logger = logging.getLogger(__name__)
 
